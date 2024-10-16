@@ -1,0 +1,178 @@
+body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+     margin: 0px;
+     background-image: url("../img/leagueBackground.webp");
+     background-position-x: 0;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+.im-fell-english-sc-regular {
+     font-family: "IM Fell English SC", serif;
+     font-weight: 400;
+     font-style: normal;
+}   
+
+.titleImg{
+     width: 80vw;
+     margin: 0px;
+     max-width: 400px;
+}
+
+h1{
+     margin: 0px;
+     margin-bottom: 10px;
+     font-size: 5vw;
+     max-width: 400px;
+     text-shadow: white 2px 2px;
+     cursor: default;
+}
+
+h2{
+     font-size: 26pt;
+     margin: 0px;
+     margin-bottom: 10px;
+     text-shadow: white 2px 2px;
+     cursor: default;
+     height: 50px;
+}
+
+@media screen and (min-width: 760px) {
+     h1 {
+          font-size: 28pt;
+     }
+}
+
+._row{
+     display: flex;
+     flex-direction: row;
+}
+
+._col{
+     display: flex;
+     flex-direction: column;
+}
+
+._jstart{
+     justify-content: flex-start;
+}
+
+._astart{
+     align-items: flex-start;
+}
+
+._jaround{
+     justify-content: space-around;
+}
+
+._jbetween{
+     justify-content: space-between;
+}
+
+._jevenly{
+     justify-content: space-evenly;
+}
+
+._jcenter{
+     justify-content: center;
+}
+
+._acenter{
+     align-items: center;
+}
+
+.champColumn{
+     background-color: #d3bb8b;
+     outline: white solid 2px;
+     outline-offset: 3px;
+     width: fit-content;
+     max-width: 20vw;
+     height: 80vh;
+     overflow-y: hidden;
+     flex-wrap: wrap;
+     padding-top: 10px;
+}
+
+.champSquareImg{
+     margin-right: 5px;
+     margin-bottom: 5px;
+     filter: grayscale(0.8);
+     filter: brightness(0.5);
+     min-width: 75px;
+     max-width: 100px;
+}
+
+.champSquareImg:hover{
+     filter: grayscale(0);
+     filter: brightness(1);
+}
+
+.champSquareImgSelected{
+     filter: grayscale(0);
+     filter: brightness(1);
+}
+
+._relative{
+     position:relative;
+}
+
+.scrollButton{
+     position: absolute;
+     left: 0px;
+     width: 100%;
+     background-color: #aaaaaa77;
+     color: #e1d1ae;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15pt;
+     font-family: 'Courier New', Courier, monospace;
+     cursor:default;
+     z-index: 1;
+}
+
+.scrollButton:hover{
+     background-color: #aaaaaa9b;
+     color: rgb(240, 223, 181);
+}
+
+.scrollButtonTop{
+     top: 0px;
+}
+
+.scrollButtonBot{
+     top: calc(80vh - 60px);
+}
+
+.championName{
+     margin-left: 20px;
+     outline: white solid 2px;
+     outline-offset: 3px;
+     background-color: #d3bb8b;
+     width: calc(80vw - 20px);
+     height: 50px;
+     margin-bottom: 20px;
+}
+
+.mainBox{
+     margin-left: 20px;
+     outline: white solid 2px;
+     outline-offset: 3px;
+     background-color: #d3bb8b;
+     width: calc(80vw - 20px);
+     height: calc(80vh - 70px);
+     padding: 10px;
+     overflow: hidden;
+}
+
+.skinImg{
+     object-fit: cover;
+     height: 120%;
+     border-color: black;
+     border-width: 2px;
+     border-style: solid;
+}
