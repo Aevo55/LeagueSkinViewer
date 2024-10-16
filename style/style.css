@@ -4,7 +4,7 @@ body{
      align-items: center;
      padding: 20px;
      margin: 0px;
-     background-image: url("../img/leagueBackground.webp");
+     background-image: url("img/leagueBackground.webp");
      background-position-x: 0;
      background-attachment: fixed;
      background-size: cover;
