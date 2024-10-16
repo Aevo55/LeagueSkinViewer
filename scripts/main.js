@@ -70,7 +70,7 @@ var intervalId = window.setInterval(function(){
 
 //Calculate background size (adjusted by window width/height)
 const bgimg = new Image()
-bgimg.src = "../img/leagueBackground.webp"
+bgimg.src = "./img/leagueBackground.webp"
 function getBgWidth(){
      return (4096 * (window.innerHeight / 1558))
 }
